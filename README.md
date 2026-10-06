@@ -4,4 +4,4 @@ Static application shell only. No customer data, user database, passwords, photo
 
 HTTPS: https://cm-pro-app.github.io/cm-pro-pwa/
 
-This build works locally/offline; cloud synchronization requires a separately provisioned private backend. Browser storage is not a backup.
+This build works locally/offline; cloud synchronization uses a separately provisioned private backend and authorized accounts. Browser storage is not a backup.
