@@ -1,0 +1,42 @@
+name: Deploy CM Pro PWA
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: cm-pro-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify audited shell checksums
+        run: |
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root = Path('site')
+          expected = json.loads(Path('PUBLIC_SHA256.json').read_text())
+          actual = {p.relative_to(root).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+                    for p in root.rglob('*') if p.is_file()}
+          assert actual == expected, 'Public shell inventory/checksum mismatch'
+          assert '<base href="/cm-pro-pwa/">' in (root/'index.html').read_text()
+          assert not any(p.is_symlink() for p in root.rglob('*')), 'Symlinks forbidden'
+          print(f'Verified {len(actual)} audited resources')
+          PY
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy HTTPS site
+        id: deployment
+        uses: actions/deploy-pages@v4
