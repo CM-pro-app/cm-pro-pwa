@@ -1,0 +1,325 @@
+{
+  "dataset_version": "V445",
+  "format_version": 1,
+  "source_master_sha256": "96db7329fc7fd16e0b0f8c52a85772bcde1f0ebf2e7e3cd8553a7ca2f6df542c",
+  "tables": {
+    "documents": [
+      {
+        "collected_at": "2026-10-05",
+        "declared_status": "Vérifié source",
+        "equipment_scope": "Espace SAV",
+        "id": "raw_doc_0b281e73c08473d3",
+        "manufacturer": "Thermor",
+        "manufacturer_id": "v445-maker-093ab322713c013d",
+        "notes": "Référence produit + numéro de série pour produits récents",
+        "reference": "https://www.thermor.fr/faq/boutique/commandes-et-achats-en-ligne/comment-trouver-une-piece-detachee-sur-l-espace-sav-thermor",
+        "restrictions": "",
+        "review_evidence": "Page officielle Thermor consultée : recherche de pièces via Espace SAV. Document général, aucune compatibilité appareil ni référence de pièce validée par cette page.",
+        "reviewed_at": "2026-11-08",
+        "source_reference": "https://www.thermor.fr/faq/boutique/commandes-et-achats-en-ligne/comment-trouver-une-piece-detachee-sur-l-espace-sav-thermor",
+        "source_url": "https://www.thermor.fr/faq/boutique/commandes-et-achats-en-ligne/comment-trouver-une-piece-detachee-sur-l-espace-sav-thermor",
+        "status": "source_reviewed",
+        "title": "Recherche pièces par modèle/référence/série",
+        "url": "https://www.thermor.fr/faq/boutique/commandes-et-achats-en-ligne/comment-trouver-une-piece-detachee-sur-l-espace-sav-thermor"
+      },
+      {
+        "collected_at": "2026-10-06",
+        "declared_status": "Vérifié source",
+        "equipment_scope": "Velis Pro",
+        "id": "raw_doc_0d06f7207d7fb765",
+        "manufacturer": "Ariston",
+        "manufacturer_id": "v445-maker-5973a511bb51b19f",
+        "notes": "Import chauffe-eau / thermodynamique contrôlé | V104 2026-10-22 : page officielle constructeur consultée ; intitulé et portée de la ressource confirmés. Page produit/FAQ uniquement : ne prouve ni compatibilité de pièce ni code défaut individuel.",
+        "reference": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-electrique/velis-pro/",
+        "restrictions": "",
+        "review_evidence": "Tableau constructeur : Velis Pro 45, 65 et 80 ; références respectives 3100920, 3100921 et 3100922. Page officielle consultée. Admission du lien et de son périmètre uniquement ; aucun PDF téléchargé, aucune compatibilité ni procédure extrapolée.",
+        "reviewed_at": "2026-11-08",
+        "source_reference": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-electrique/velis-pro/",
+        "source_url": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-electrique/velis-pro/",
+        "status": "source_reviewed",
+        "title": "Page produit / données techniques",
+        "url": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-electrique/velis-pro/"
+      },
+      {
+        "collected_at": "2026-10-06",
+        "declared_status": "Vérifié source",
+        "equipment_scope": "NUOS PRIMO HC A+",
+        "id": "raw_doc_ae8377373ade4c33",
+        "manufacturer": "Ariston",
+        "manufacturer_id": "v445-maker-5973a511bb51b19f",
+        "notes": "Import chauffe-eau / thermodynamique contrôlé | V104 2026-10-22 : page officielle constructeur consultée ; intitulé et portée de la ressource confirmés. Page produit/FAQ uniquement : ne prouve ni compatibilité de pièce ni code défaut individuel.",
+        "reference": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-thermodynamique/nuos-primo-hc",
+        "restrictions": "",
+        "review_evidence": "Tableau constructeur : NUOS PRIMO HC 200 et 240 ; références respectives 3069653 et 3069654. Page officielle consultée. Admission du lien et de son périmètre uniquement ; aucun PDF téléchargé, aucune compatibilité ni procédure extrapolée.",
+        "reviewed_at": "2026-11-08",
+        "source_reference": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-thermodynamique/nuos-primo-hc",
+        "source_url": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-thermodynamique/nuos-primo-hc",
+        "status": "source_reviewed",
+        "title": "Page produit / données techniques",
+        "url": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-thermodynamique/nuos-primo-hc"
+      },
+      {
+        "collected_at": "2026-10-06",
+        "declared_status": "Vérifié source",
+        "equipment_scope": "Malicio 3 Malicio 3 Plat Multiposition 80 L",
+        "id": "198f50e1-df8c-47c7-9de3-07797f1d61b6",
+        "manufacturer": "Thermor",
+        "manufacturer_id": "v445-maker-093ab322713c013d",
+        "notes": "Import thermo v14 | V104 2026-10-22 : page officielle constructeur consultée ; intitulé et portée de la ressource confirmés. Page produit/FAQ uniquement : ne prouve ni compatibilité de pièce ni code défaut individuel.",
+        "reference": "https://www.thermor.fr/produits/chauffe-eau/chauffe-eau-electrique-plat/malicio-3/231070",
+        "restrictions": "",
+        "review_evidence": "Fiche constructeur : Malicio 3 Plat Multiposition 80 L, code 231070. Page officielle consultée. Admission du lien et de son périmètre uniquement ; aucun PDF téléchargé, aucune compatibilité ni procédure extrapolée.",
+        "reviewed_at": "2026-11-08",
+        "source_reference": "https://www.thermor.fr/produits/chauffe-eau/chauffe-eau-electrique-plat/malicio-3/231070",
+        "source_url": "https://www.thermor.fr/produits/chauffe-eau/chauffe-eau-electrique-plat/malicio-3/231070",
+        "status": "source_reviewed",
+        "title": "Fiche produit officielle + documentation modèle",
+        "url": "https://www.thermor.fr/produits/chauffe-eau/chauffe-eau-electrique-plat/malicio-3/231070"
+      }
+    ],
+    "equipment": [
+      {
+        "category": "Ballons thermodynamiques",
+        "category_review_evidence": "Nature du chauffe-eau explicitement indiquée par la page constructeur consultée : Ballons thermodynamiques.",
+        "collected_at": "2026-10-07",
+        "declared_status": "Vérifié source",
+        "document_id": "raw_doc_ae8377373ade4c33",
+        "equipment_type": "Ballon thermodynamique",
+        "evidence": "Référence exacte 3069653, NUOS PRIMO HC 200, capacité 200 L et caractéristiques confirmées par Ariston officiel.",
+        "generation": "",
+        "id": "raw_eq_2ed4419a9397a853",
+        "manufacturer": "Ariston",
+        "manufacturer_id": "v445-maker-5973a511bb51b19f",
+        "model_reference": "200 - 3069653",
+        "range_name": "NUOS Primo HC",
+        "restrictions": "",
+        "review_evidence": "Page officielle du constructeur consultée : NUOS Primo HC 200 - 3069653. Identité de la ligne MASTER confirmée. Aucun code défaut, pièce, série, procédure ou caractéristique supplémentaire admis par ce contrôle.",
+        "reviewed_at": "2026-11-08",
+        "source_category": "Ballon thermodynamique",
+        "source_reference": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-thermodynamique/nuos-primo-hc",
+        "source_url": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-thermodynamique/nuos-primo-hc",
+        "status": "source_reviewed"
+      },
+      {
+        "category": "Ballons thermodynamiques",
+        "category_review_evidence": "Nature du chauffe-eau explicitement indiquée par la page constructeur consultée : Ballons thermodynamiques.",
+        "collected_at": "2026-10-07",
+        "declared_status": "Vérifié source",
+        "document_id": "raw_doc_ae8377373ade4c33",
+        "equipment_type": "Ballon thermodynamique",
+        "evidence": "Référence exacte 3069654, NUOS PRIMO HC 240, capacité 242 L et caractéristiques confirmées par Ariston officiel.",
+        "generation": "",
+        "id": "raw_eq_969a29ba9cac5655",
+        "manufacturer": "Ariston",
+        "manufacturer_id": "v445-maker-5973a511bb51b19f",
+        "model_reference": "240 - 3069654",
+        "range_name": "NUOS Primo HC",
+        "restrictions": "",
+        "review_evidence": "Page officielle du constructeur consultée : NUOS Primo HC 240 - 3069654. Identité de la ligne MASTER confirmée. Aucun code défaut, pièce, série, procédure ou caractéristique supplémentaire admis par ce contrôle.",
+        "reviewed_at": "2026-11-08",
+        "source_category": "Ballon thermodynamique",
+        "source_reference": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-thermodynamique/nuos-primo-hc",
+        "source_url": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-thermodynamique/nuos-primo-hc",
+        "status": "source_reviewed"
+      },
+      {
+        "category": "Chauffe-eau électriques",
+        "category_review_evidence": "Nature du chauffe-eau explicitement indiquée par la page constructeur consultée : Chauffe-eau électriques.",
+        "collected_at": "2026-10-05",
+        "declared_status": "Vérifié source",
+        "document_id": "raw_doc_0d06f7207d7fb765",
+        "equipment_type": "Ballon eau chaude",
+        "evidence": "Contrôle massif 2026-10-06 : identité modèle/référence confirmée sur source constructeur officielle.",
+        "generation": "",
+        "id": "raw_eq_87d953f46cbe10ab",
+        "manufacturer": "Ariston",
+        "manufacturer_id": "v445-maker-5973a511bb51b19f",
+        "model_reference": "45 - 3100920",
+        "range_name": "Velis Pro",
+        "restrictions": "",
+        "review_evidence": "Page officielle du constructeur consultée : Velis Pro 45 - 3100920. Identité de la ligne MASTER confirmée. Aucun code défaut, pièce, série, procédure ou caractéristique supplémentaire admis par ce contrôle.",
+        "reviewed_at": "2026-11-08",
+        "source_category": "Ballon eau chaude",
+        "source_reference": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-electrique/velis-pro/",
+        "source_url": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-electrique/velis-pro/",
+        "status": "source_reviewed"
+      },
+      {
+        "category": "Chauffe-eau électriques",
+        "category_review_evidence": "Nature du chauffe-eau explicitement indiquée par la page constructeur consultée : Chauffe-eau électriques.",
+        "collected_at": "2026-10-05",
+        "declared_status": "Vérifié source",
+        "document_id": "raw_doc_0d06f7207d7fb765",
+        "equipment_type": "Ballon eau chaude",
+        "evidence": "Contrôle massif 2026-10-06 : identité modèle/référence confirmée sur source constructeur officielle.",
+        "generation": "",
+        "id": "raw_eq_460655b8426493c0",
+        "manufacturer": "Ariston",
+        "manufacturer_id": "v445-maker-5973a511bb51b19f",
+        "model_reference": "65 - 3100921",
+        "range_name": "Velis Pro",
+        "restrictions": "",
+        "review_evidence": "Page officielle du constructeur consultée : Velis Pro 65 - 3100921. Identité de la ligne MASTER confirmée. Aucun code défaut, pièce, série, procédure ou caractéristique supplémentaire admis par ce contrôle.",
+        "reviewed_at": "2026-11-08",
+        "source_category": "Ballon eau chaude",
+        "source_reference": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-electrique/velis-pro/",
+        "source_url": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-electrique/velis-pro/",
+        "status": "source_reviewed"
+      },
+      {
+        "category": "Chauffe-eau électriques",
+        "category_review_evidence": "Nature du chauffe-eau explicitement indiquée par la page constructeur consultée : Chauffe-eau électriques.",
+        "collected_at": "2026-10-05",
+        "declared_status": "Vérifié source",
+        "document_id": "raw_doc_0d06f7207d7fb765",
+        "equipment_type": "Ballon eau chaude",
+        "evidence": "Contrôle massif 2026-10-06 : identité modèle/référence confirmée sur source constructeur officielle.",
+        "generation": "",
+        "id": "raw_eq_90262ab7740fd65a",
+        "manufacturer": "Ariston",
+        "manufacturer_id": "v445-maker-5973a511bb51b19f",
+        "model_reference": "80 - 3100922",
+        "range_name": "Velis Pro",
+        "restrictions": "",
+        "review_evidence": "Page officielle du constructeur consultée : Velis Pro 80 - 3100922. Identité de la ligne MASTER confirmée. Aucun code défaut, pièce, série, procédure ou caractéristique supplémentaire admis par ce contrôle.",
+        "reviewed_at": "2026-11-08",
+        "source_category": "Ballon eau chaude",
+        "source_reference": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-electrique/velis-pro/",
+        "source_url": "https://www.ariston.com/fr-fr/produits/chauffe-eau-ballons/chauffe-eau-electrique/velis-pro/",
+        "status": "source_reviewed"
+      },
+      {
+        "category": "Chauffe-eau électriques",
+        "category_review_evidence": "Nature du chauffe-eau explicitement indiquée par la page constructeur consultée : Chauffe-eau électriques.",
+        "collected_at": "2026-10-06",
+        "declared_status": "Vérifié source",
+        "document_id": "198f50e1-df8c-47c7-9de3-07797f1d61b6",
+        "equipment_type": "Ballon eau chaude",
+        "evidence": "Import source chauffe-eau/thermo v14; ref appareil: 231070 | Contrôle massif 2026-10-07: Thermor officiel Malicio 3 MP 80 L réf. 231070 | V82 08/10/2026 : fiche produit officielle Thermor, référence 231070, format/capacité conformes. Confirmation d'identité uniquement ; pièces, codes défaut et évolutions par n° de série non validés.",
+        "generation": "",
+        "id": "2340c589-992e-4444-b578-9a3d3d3ff05e",
+        "manufacturer": "Thermor",
+        "manufacturer_id": "v445-maker-093ab322713c013d",
+        "model_reference": "Malicio 3 Plat Multiposition 80 L",
+        "range_name": "Malicio 3",
+        "restrictions": "",
+        "review_evidence": "Page officielle du constructeur consultée : Malicio 3 Malicio 3 Plat Multiposition 80 L. Identité de la ligne MASTER confirmée. Aucun code défaut, pièce, série, procédure ou caractéristique supplémentaire admis par ce contrôle.",
+        "reviewed_at": "2026-11-08",
+        "source_category": "Ballon eau chaude",
+        "source_reference": "https://www.thermor.fr/produits/chauffe-eau/chauffe-eau-electrique-plat/malicio-3/231070",
+        "source_url": "https://www.thermor.fr/produits/chauffe-eau/chauffe-eau-electrique-plat/malicio-3/231070",
+        "status": "source_reviewed"
+      }
+    ],
+    "equipment_fault_sets": [
+      {
+        "equipment_id": "raw_eq_2ed4419a9397a853",
+        "fault_set_id": "raw_eq_2ed4419a9397a853"
+      },
+      {
+        "equipment_id": "raw_eq_969a29ba9cac5655",
+        "fault_set_id": "raw_eq_969a29ba9cac5655"
+      },
+      {
+        "equipment_id": "raw_eq_87d953f46cbe10ab",
+        "fault_set_id": "raw_eq_87d953f46cbe10ab"
+      },
+      {
+        "equipment_id": "raw_eq_460655b8426493c0",
+        "fault_set_id": "raw_eq_460655b8426493c0"
+      },
+      {
+        "equipment_id": "raw_eq_90262ab7740fd65a",
+        "fault_set_id": "raw_eq_90262ab7740fd65a"
+      },
+      {
+        "equipment_id": "2340c589-992e-4444-b578-9a3d3d3ff05e",
+        "fault_set_id": "2340c589-992e-4444-b578-9a3d3d3ff05e"
+      }
+    ],
+    "fault_code_sets": [
+      {
+        "exact_scope": "200 - 3069653",
+        "id": "raw_eq_2ed4419a9397a853",
+        "manufacturer_id": "v445-maker-5973a511bb51b19f"
+      },
+      {
+        "exact_scope": "240 - 3069654",
+        "id": "raw_eq_969a29ba9cac5655",
+        "manufacturer_id": "v445-maker-5973a511bb51b19f"
+      },
+      {
+        "exact_scope": "45 - 3100920",
+        "id": "raw_eq_87d953f46cbe10ab",
+        "manufacturer_id": "v445-maker-5973a511bb51b19f"
+      },
+      {
+        "exact_scope": "65 - 3100921",
+        "id": "raw_eq_460655b8426493c0",
+        "manufacturer_id": "v445-maker-5973a511bb51b19f"
+      },
+      {
+        "exact_scope": "80 - 3100922",
+        "id": "raw_eq_90262ab7740fd65a",
+        "manufacturer_id": "v445-maker-5973a511bb51b19f"
+      },
+      {
+        "exact_scope": "Malicio 3 Plat Multiposition 80 L",
+        "id": "2340c589-992e-4444-b578-9a3d3d3ff05e",
+        "manufacturer_id": "v445-maker-093ab322713c013d"
+      }
+    ],
+    "fault_codes": [],
+    "manufacturers": [
+      {
+        "id": "v445-maker-5973a511bb51b19f",
+        "name": "Ariston"
+      },
+      {
+        "id": "v445-maker-093ab322713c013d",
+        "name": "Thermor"
+      }
+    ],
+    "tech_part_compatibility": [],
+    "tech_part_models": [
+      {
+        "id": "raw_eq_2ed4419a9397a853",
+        "manufacturer": "Ariston",
+        "manufacturer_article": "200 - 3069653",
+        "model_name": "200 - 3069653"
+      },
+      {
+        "id": "raw_eq_969a29ba9cac5655",
+        "manufacturer": "Ariston",
+        "manufacturer_article": "240 - 3069654",
+        "model_name": "240 - 3069654"
+      },
+      {
+        "id": "raw_eq_87d953f46cbe10ab",
+        "manufacturer": "Ariston",
+        "manufacturer_article": "45 - 3100920",
+        "model_name": "45 - 3100920"
+      },
+      {
+        "id": "raw_eq_460655b8426493c0",
+        "manufacturer": "Ariston",
+        "manufacturer_article": "65 - 3100921",
+        "model_name": "65 - 3100921"
+      },
+      {
+        "id": "raw_eq_90262ab7740fd65a",
+        "manufacturer": "Ariston",
+        "manufacturer_article": "80 - 3100922",
+        "model_name": "80 - 3100922"
+      },
+      {
+        "id": "2340c589-992e-4444-b578-9a3d3d3ff05e",
+        "manufacturer": "Thermor",
+        "manufacturer_article": "Malicio 3 Plat Multiposition 80 L",
+        "model_name": "Malicio 3 Plat Multiposition 80 L"
+      }
+    ],
+    "tech_parts": []
+  },
+  "updated_at": "2026-11-08"
+}
