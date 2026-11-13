@@ -35,6 +35,16 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <div id="cm-pro-startup" role="status" aria-live="polite" style="position:fixed;inset:0;display:grid;place-items:center;padding:24px;background:#f5f6f8;color:#263238;font:18px system-ui;text-align:center">
+    <div><strong style="display:block;font-size:28px;margin-bottom:16px">CM Pro</strong>Ouverture de votre espace…</div>
+  </div>
+  <!-- CM_PRO_FIRST_FRAME_START -->
+  <script>
+    window.addEventListener('flutter-first-frame', () => {
+      document.getElementById('cm-pro-startup')?.remove();
+    }, {once: true});
+  </script>
+  <!-- CM_PRO_FIRST_FRAME_END -->
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
@@ -44,10 +54,8 @@
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
   <script src="flutter_bootstrap.js" async></script>
+  <script src="cm_pro_update.js" defer></script>
   <script>
-    if ("serviceWorker" in navigator && navigator.onLine) {
-      window.addEventListener("load", () => navigator.serviceWorker.register("cm_pro_sw.js").catch(() => {}));
-    }
     if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
   </script>
 </body>
